@@ -1,0 +1,20 @@
+1656082691410	geckodriver	INFO	Listening on 127.0.0.1:58752
+1656082736063	geckodriver	INFO	Listening on 127.0.0.1:58769
+1656082826297	geckodriver	INFO	Listening on 127.0.0.1:58838
+1656082826810	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58839" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/w6/5jsrlny96zb4qr2pbf6nf0600000gn/T/rust_mozprofileIGQWto"
+2022-06-25 00:00:27.036 plugin-container[72184:5838184] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-25 00:00:27.036 plugin-container[72184:5838184] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-25 00:00:27.040 plugin-container[72184:5838184] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-25 00:00:27.040 plugin-container[72184:5838184] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-25 00:00:27.040 plugin-container[72184:5838189] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-25 00:00:27.040 plugin-container[72184:5838189] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656082827041	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58839
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/w6/5jsrlny96zb4qr2pbf6nf0600000gn/T/rust_mozprofileIGQWto/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656082828008	Marionette	INFO	Listening on port 58852
+DevTools listening on ws://localhost:58839/devtools/browser/65e656f7-2bca-4765-8490-f16cd8448823
+Read port: 58852
+1656082828069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable

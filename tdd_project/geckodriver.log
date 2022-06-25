@@ -18,3 +18,26 @@ DevTools listening on ws://localhost:58839/devtools/browser/65e656f7-2bca-4765-8
 Read port: 58852
 1656082828069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1656166511005	geckodriver	INFO	Listening on 127.0.0.1:63086
+1656166511523	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63087" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/w6/5jsrlny96zb4qr2pbf6nf0600000gn/T/rust_mozprofileOFkIhl"
+2022-06-25 23:15:11.945 plugin-container[6409:6150506] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-25 23:15:11.945 plugin-container[6409:6150506] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656166511958	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:63087
+2022-06-25 23:15:12.008 plugin-container[6409:6150506] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-25 23:15:12.008 plugin-container[6409:6150506] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-25 23:15:12.009 plugin-container[6409:6150504] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-25 23:15:12.009 plugin-container[6409:6150504] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/w6/5jsrlny96zb4qr2pbf6nf0600000gn/T/rust_mozprofileOFkIhl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656166512703	Marionette	INFO	Listening on port 63099
+DevTools listening on ws://localhost:63087/devtools/browser/f588058e-80b4-4efb-8047-751441ef7fd1
+Read port: 63099
+1656166512803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1656167127587	Marionette	INFO	Stopped listening on port 63099
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

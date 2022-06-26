@@ -1,4 +1,0 @@
-db.sqlite3
-
-# no secret_key.json files
-*secret_key.json

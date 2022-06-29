@@ -418,3 +418,21 @@ Read port: 55674
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1656510031606	geckodriver	INFO	Listening on 127.0.0.1:56755
+1656510032125	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56756" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/w6/5jsrlny96zb4qr2pbf6nf0600000gn/T/rust_mozprofileq9TELO"
+2022-06-29 22:40:32.534 plugin-container[25240:7085179] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 22:40:32.534 plugin-container[25240:7085179] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656510032547	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:56756
+2022-06-29 22:40:32.624 plugin-container[25240:7085179] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 22:40:32.624 plugin-container[25240:7085179] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 22:40:32.625 plugin-container[25240:7085182] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 22:40:32.625 plugin-container[25240:7085182] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/w6/5jsrlny96zb4qr2pbf6nf0600000gn/T/rust_mozprofileq9TELO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656510033386	Marionette	INFO	Listening on port 56768
+DevTools listening on ws://localhost:56756/devtools/browser/bcc6da19-2355-4815-99ec-8efc2d46683d
+Read port: 56768
+1656510033494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656510033543	Marionette	INFO	Stopped listening on port 56768

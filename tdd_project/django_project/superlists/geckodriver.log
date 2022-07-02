@@ -1790,3 +1790,24 @@ Read port: 61727
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1656766902712	geckodriver	INFO	Listening on 127.0.0.1:61757
+1656766903235	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61758" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileaC5IeL"
+2022-07-02 22:01:43.636 plugin-container[60947:13399486] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 22:01:43.636 plugin-container[60947:13399486] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 22:01:43.639 plugin-container[60947:13399486] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 22:01:43.639 plugin-container[60947:13399486] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 22:01:43.639 plugin-container[60947:13399493] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 22:01:43.639 plugin-container[60947:13399493] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656766903653	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61758
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileaC5IeL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656766905134	Marionette	INFO	Listening on port 61771
+DevTools listening on ws://localhost:61758/devtools/browser/3f95be89-815b-4d6c-b441-7f6690223b56
+Read port: 61771
+1656766905223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656766908522	Marionette	INFO	Stopped listening on port 61771
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

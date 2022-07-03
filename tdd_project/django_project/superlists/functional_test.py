@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
 from selenium.webdriver.common.by import By
+import time
 
 
 class NewVisitorTest(unittest.TestCase):
@@ -9,7 +10,7 @@ class NewVisitorTest(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
-    
+
     def tearDown(self):
         self.browser.quit()
 
@@ -20,28 +21,28 @@ class NewVisitorTest(unittest.TestCase):
 
         # 웹 페이지 타이틀과 헤더가 'To-Do'를 표시하고 있다.
         self.assertIn('To-Do', self.browser.title)
-        header_text = self.browser.find_elements(By.TAG_NAME,'h1')
+        header_text = self.browser.find_elements(By.TAG_NAME, 'h1')
         for i in header_text:
-            self.assertIn('To-Do',i.text)
+            self.assertIn('To-Do', i.text)
 
         # 그녀는 바로 작업을 추가하기로 한다
         # inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox = self.browser.find_element(By.ID,'id_new_item')
+        inputbox = self.browser.find_element(By.ID, 'id_new_item')
         self.assertEqual(
             inputbox.get_attribute('placeholder'),
             '작업 아이템 입력'
         )
-        
+
         # "공작깃털 사기" 라고 텍스트 상자에 입력한다
         # (에디스의 취미는 날치 잡이용 그물을 만드는 것이다)
-        inputbox.send_keys('공작깃털 사기')
+        inputbox.send_keys(Keys.ENTER)
 
         # 엔터키를 치면 페이지가 갱신되고 작업 목록에
         # "1: 공작깃털 사기" 아이템이 추가된다
         inputbox.send_keys(Keys.ENTER)
-    
-        table = self.browser.find_element(By.ID,'id_list_table')
-        rows = table.find_elements(By.TAG_NAME,'tr')
+
+        table = self.browser.find_element(By.ID, 'id_list_table')
+        rows = table.find_elements(By.TAG_NAME, 'tr')
         self.assertTrue(
             any(row.text == '1: 공작깃털 사기' for row in rows),
             "신규 작업이 테이블에 표시되지 않는다"
@@ -59,6 +60,7 @@ class NewVisitorTest(unittest.TestCase):
         # 해당 URL에 접속하면 그녀가 만든 작업 목록이 그대로 있는 것을 확인할 수 있다
 
         # 만족하고 잠자리에 든다.
+
 
 if __name__ == '__main__':
     unittest.main(warnings='ignore')

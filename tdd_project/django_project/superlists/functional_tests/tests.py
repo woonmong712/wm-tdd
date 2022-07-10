@@ -79,6 +79,7 @@ class NewVisitorTest(LiveServerTestCase):
         ## 새로운 브라우저 세션을 이용해서 에디스의 정보가
         ## 쿠키를 통해 유입되는 것을 방지한다.
         self.browser.quit()
+        time.sleep(1)
         self.browser = webdriver.Firefox()
 
         # 프란시스가 홈페이지에 접속한다
@@ -87,6 +88,18 @@ class NewVisitorTest(LiveServerTestCase):
         page_text = self.browser.find_element(By.TAG_NAME,'body').text
         self.assertNotIn('공작깃털 사기',page_text)
         self.assertNotIn('그물 만들기',page_text)
+        
+        # 프란시스가 새로운 작업 아이템을 입력하기 시작한다
+        # 그는 에디스보다 재미가 없다
+        inputbox = self.browser.find_element(By.ID,'id_new_item')
+        inputbox.send_keys('우유 사기')
+        inputbox.send_keys(Keys.ENTER)
+        time.sleep(1)
+        
+        # 프란시스가 전용 URL을 취득한다.
+        francis_list_url = self.browser.current_url
+        self.assertRegex(francis_list_url,'/lists/.+')
+        self.assertNotEqual(francis_list_url,edith_list_url)
 
         # 에디스가 입력한 흔적이 없다는 것을 다시 확인한다.
         page_text = self.browser.find_element(By.TAG_NAME,'body').text

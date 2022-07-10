@@ -5709,3 +5709,29 @@ Read port: 60773
 1657437622419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:60720"
 1657437623597	Marionette	INFO	Stopped listening on port 60773
+1657439861313	geckodriver	INFO	Listening on 127.0.0.1:61235
+1657439861826	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61236" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofile0A86eg"
+2022-07-10 07:57:42.396 plugin-container[3104:14416288] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 07:57:42.396 plugin-container[3104:14416288] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657439862442	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61236
+2022-07-10 07:57:42.533 plugin-container[3104:14416288] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 07:57:42.534 plugin-container[3104:14416288] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 07:57:42.534 plugin-container[3104:14416316] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 07:57:42.534 plugin-container[3104:14416316] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofile0A86eg/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1657439864071	Marionette	INFO	Listening on port 61247
+DevTools listening on ws://localhost:61236/devtools/browser/9786e6c9-e7f6-4754-8dbd-e27a49747056
+Read port: 61247
+1657439864133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61234"
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+1657439868142	Marionette	INFO	Stopped listening on port 61247
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

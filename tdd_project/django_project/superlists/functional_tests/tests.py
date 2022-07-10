@@ -30,7 +30,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('To-Do', self.browser.title)
         header_text = self.browser.find_elements(By.TAG_NAME, 'h1')
         for i in header_text:
-            self.assertIn('To-Do', i.text)
+            self.assertIn('작업 목록 시작', i.text)
 
         # 그녀는 바로 작업을 추가하기로 한다
         # inputbox = self.browser.find_element_by_id('id_new_item')
@@ -87,17 +87,6 @@ class NewVisitorTest(LiveServerTestCase):
         page_text = self.browser.find_element(By.TAG_NAME,'body').text
         self.assertNotIn('공작깃털 사기',page_text)
         self.assertNotIn('그물 만들기',page_text)
-
-        # 프란시스가 새로운 작업 아이템을 입력하기 시작한다
-        # 그는 에디스보다 재미가 없다
-        inputbox = self.browser.find_element(By.ID,'id_new_item')
-        inputbox.send_keys('우유 사기')
-        inputbox.send_keys(Keys.ENTER)
-
-        # 프란시스가 전용 URL을 취득한다.
-        francis_list_url = self.browser.current_url
-        self.assertRegex(francis_list_url,'/lists/.+')
-        self.assertNotEqual(francis_list_url,edith_list_url)
 
         # 에디스가 입력한 흔적이 없다는 것을 다시 확인한다.
         page_text = self.browser.find_element(By.TAG_NAME,'body').text

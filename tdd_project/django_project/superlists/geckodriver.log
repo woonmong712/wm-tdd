@@ -5735,3 +5735,88 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1657441608764	geckodriver	INFO	Listening on 127.0.0.1:61410
+1657441609278	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61411" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileYOOtkC"
+2022-07-10 08:26:49.836 plugin-container[4971:14441133] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:26:49.836 plugin-container[4971:14441133] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657441609864	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61411
+2022-07-10 08:26:49.950 plugin-container[4971:14441133] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:26:49.950 plugin-container[4971:14441133] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:26:49.950 plugin-container[4971:14441163] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:26:49.950 plugin-container[4971:14441163] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileYOOtkC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1657441611496	Marionette	INFO	Listening on port 61424
+DevTools listening on ws://localhost:61411/devtools/browser/35a03b0e-3156-4bef-bd93-073563945b21
+Read port: 61424
+1657441611592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61409"
+1657441615799	Marionette	INFO	Stopped listening on port 61424
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1657441910494	geckodriver	INFO	Listening on 127.0.0.1:61490
+1657441911009	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61491" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileTF4Xkj"
+2022-07-10 08:31:51.398 plugin-container[5092:14444633] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:31:51.398 plugin-container[5092:14444633] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:31:51.401 plugin-container[5092:14444633] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:31:51.401 plugin-container[5092:14444633] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:31:51.401 plugin-container[5092:14444639] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:31:51.401 plugin-container[5092:14444639] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657441911417	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61491
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileTF4Xkj/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1657441912831	Marionette	INFO	Listening on port 61503
+DevTools listening on ws://localhost:61491/devtools/browser/93ea4c75-33eb-4f4c-a46d-ea8d484a5443
+Read port: 61503
+1657441912878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61489"
+1657441917095	Marionette	INFO	Stopped listening on port 61503
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1657441935132	geckodriver	INFO	Listening on 127.0.0.1:61528
+1657441935646	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61529" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileSwlVNO"
+2022-07-10 08:32:16.050 plugin-container[5174:14445464] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:32:16.050 plugin-container[5174:14445464] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:32:16.053 plugin-container[5174:14445464] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:32:16.053 plugin-container[5174:14445464] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:32:16.053 plugin-container[5174:14445462] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:32:16.053 plugin-container[5174:14445462] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657441936068	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61529
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofileSwlVNO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1657441937532	Marionette	INFO	Listening on port 61541
+DevTools listening on ws://localhost:61529/devtools/browser/a098146a-627b-4cdf-a44b-e2697f9d518b
+Read port: 61541
+1657441937637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61527"
+1657441941838	Marionette	INFO	Stopped listening on port 61541
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1657441948087	geckodriver	INFO	Listening on 127.0.0.1:61565
+1657441948593	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61566" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofilewLkwkq"
+2022-07-10 08:32:28.950 plugin-container[5251:14446191] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:32:28.950 plugin-container[5251:14446191] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:32:28.953 plugin-container[5251:14446191] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:32:28.953 plugin-container[5251:14446191] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 08:32:28.953 plugin-container[5251:14446198] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 08:32:28.953 plugin-container[5251:14446198] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657441948971	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61566
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/10/qtzrgq7x58bc0q9r8yjnkn1c0000gn/T/rust_mozprofilewLkwkq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1657441950465	Marionette	INFO	Listening on port 61577
+Read port: 61577
+1657441950477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:61566/devtools/browser/781695b5-233c-4b31-947d-c9b11f54889e
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61564"
+1657441954671	Marionette	INFO	Stopped listening on port 61577

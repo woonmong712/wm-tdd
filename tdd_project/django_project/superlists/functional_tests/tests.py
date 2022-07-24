@@ -54,16 +54,6 @@ class NewVisitorTest(LiveServerTestCase):
         self.check_for_row_in_list_table('1: 공작깃털 사기')
         time.sleep(2)
 
-        # table = self.browser.find_element(By.ID, 'id_list_table')
-        # rows = table.find_elements(By.TAG_NAME, 'tr')
-        # # self.assertTrue(
-        # #     any(row.text == '1: 공작깃털 사기' for row in rows),
-        # #     "신규 작업이 테이블에 표시되지 않는다 -- 해당 텍스트 :\n%s" % (
-        # #         table.text,
-        # #     )
-        # # )
-        # self.assertIn('1: 공작깃털 사기', [row.text for row in rows])
-
         # 추가 아이템을 입력할 수 있는 여분의 텍스트 상자가 존재한다.
         # 다시 "공작깃털을 이용해서 그물 만들기" 라고 입력한다
         # (에디스는 매우 체계적인 사람이다)

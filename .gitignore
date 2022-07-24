@@ -181,3 +181,4 @@ db.sqlite3
 
 # no secret_key.json files
 *secret_key.json
+tdd_project/django_project/superlists/lists/static/

@@ -129,6 +129,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
         )
         # 새로운 리스트를 시작하고 입력 상자가 가운데에 배치 된 것을 확인
         inputbox.send_keys('testing\n')
-        time.sleep(3)
+        time.sleep(1)
         inputbox = self.browser.find_element(By.ID, 'id_new_item')
         self.assertAlmostEqual(inputbox.location['x'] + inputbox.size['width'] / 2, 640, delta=10)
